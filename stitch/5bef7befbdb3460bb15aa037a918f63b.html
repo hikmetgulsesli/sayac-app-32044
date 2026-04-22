@@ -1,0 +1,34 @@
+# Sayac-app-32044 — Urun Gereksinimleri Dokumani
+
+## 1. Genel Bakis
+Sayac-app-32044 kullanicilarin sayisal degerleri artirma azaltma ve sifirlama islemlerini gerceklestirebilecekleri interaktif bir web sayaci uygulamasidir. Uygulama tarayicida localStorage ile veri kaliciligi saglar. Son 10 degisiklik timestamp ile gosterilir. Karanlik ve acik tema destegi mevcuttur. Turkce arayuz ile yerel kullanicilara dogal ve akici bir deneyim sunar.
+
+Hedef kitle: Gunluk kullanicilar ogrenciler isletme sahipleri.
+
+## 2. Hedefler
+- Saya artirma/azaltma/sifirlama
+- Son 10 degisiklik gecmisi timestamp ile
+- Dark mode toggle
+- Veri kaliciligi localStorage
+- WCAG 2.1 AA erisilebilirlik
+- Mobil uyumlu tasarim
+
+## 3. Tech Stack
+React 18, Vite, TypeScript, Tailwind CSS, Lucide React, Inter & Space Grotesk fonts.
+
+## 4. Fonksiyonel Gereksinimler
+- Sayac Kontrolu: Arttir (+1), Azalt (-1), Sifirla (0).
+- Gecmis: Son 10 kayit FIFO. Bos durum: "Henuz islem yapilmadi".
+- Tema: Karanlik/Acik toggle (300ms fade).
+- Kalicilik: localStorage.
+
+## 6. UI/UX Design System (Playful)
+- Renkler: Deep purples, indigos, sleek dark surfaces.
+- Typography: Sayac (Space Grotesk, 96px, 700), Baslik (24px, 600).
+- Border Radius: 12/16px.
+
+## 10. Ekranlar
+1. Ana Saya Ekrani (Main)
+2. Bos Gecmis Durumu (Empty State)
+3. Karanlik Tema (Dark Theme)
+4. Mobil Duzen (Responsive)
